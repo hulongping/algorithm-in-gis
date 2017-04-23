@@ -64,7 +64,6 @@ public class RPoint extends Point2D {
         this.name = name;
     }
 
-
     public String toString()
     {
         return name;

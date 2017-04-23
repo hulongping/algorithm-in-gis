@@ -136,13 +136,7 @@ public class DijkstraUtil {
             }
 
         }
-
-
         printPath(destNode);
-
-
-
-
     }
 
     private void printLinkedGraphic(List<VertexNode> list)
