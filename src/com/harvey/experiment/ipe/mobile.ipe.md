@@ -52,4 +52,4 @@ json格式， 每个城市一个数组对象，监测站名：金泉两河，观
 ```
 
 
-![postman接口分析截图(https://hulongping.github.io/algorithm-in-gis/resource/ipeapi.png)]
+![postman接口分析截图(https://hulongping.github.io/algorithm-in-gis/resource/ipeapi.png )]
