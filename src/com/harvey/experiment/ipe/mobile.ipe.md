@@ -3,6 +3,17 @@
 http://mobile.ipe.org.cn:97/app/app_V3.asmx/
 方法一律采用post
 
+
+
+## 地区:1大区2省3市 GetSpace
+### 输入参数
+version=2
+miyao=24646572424578787574454
+type=3
+
+
+
+
 ## 获得空气质量城市列表GetAir_City_List
 
 ## 参数说明
@@ -52,4 +63,30 @@ json格式， 每个城市一个数组对象，监测站名：金泉两河，观
 ```
 
 
-![postman接口分析截图(https://hulongping.github.io/algorithm-in-gis/resource/ipeapi.png )]
+## 按照地区查询废气排放企业 Industry_Layer_List
+### 输入参数
+IndexId:0	
+IsHaveData:0	
+IsEx:0
+IsZg:0	
+search_key:	
+search_spaceid:24	（这个就是地区编码，上海24，浙江 27 江苏 17 安徽 2）
+Uid:0	
+miyao:24646572424578787574454
+
+### 输出结果
+第二个参数是 IndustryId
+["上海吴泾第二发电有限责任公司","10298","16.27","1","0","7","氮氧化物","上海"]
+
+
+## 污染源地图_水气_详情页  Industry_Content
+   
+### 输入参数
+IndexId:0
+IndustryId:
+UserId:0
+miyao:24646572424578787574454
+
+
+## Postman请求示意图
+![image](https://hulongping.github.io/algorithm-in-gis/resource/ipeapi.png)
